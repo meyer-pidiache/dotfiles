@@ -1,4 +1,4 @@
-# Fix the Java Problem
+#lllllll Fix the Java Problem
 
 export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk"
@@ -104,11 +104,11 @@ alias ls='lsd --group-dirs=first'
 
 alias cat='bat'
 
+alias cdt='cd $(mktemp -d)'
+
 alias py='python3'
 
 alias icat='kitty +kitten icat'
-
-alias exiftool='~/Code/Repositories/externalRepos/Image-ExifTool-12.54/exiftool'
 
 
 # Plugins
@@ -259,4 +259,3 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
 source $HOME/.local/bin/virtualenvwrapper.sh
 
-source "$HOME/.cargo/env"
