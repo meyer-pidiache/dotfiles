@@ -257,5 +257,5 @@ export WORKON_HOME=$HOME/.virtualenvs
 # export PROJECT_HOME=$HOME/Devel
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 export VIRTUALENVWRAPPER_VIRTUALENV=/usr/bin/virtualenv
-source $HOME/.local/bin/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper.sh
 
