@@ -4,6 +4,12 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk"
 export PATH="$PATH:$JAVA_HOME/bin"
 
+# Node JS
+
+PATH="$HOME/.local/bin:$PATH"
+export npm_config_prefix="$HOME/.local"
+
+
 # Enable Powerlevel10k instant prompt. Should stay at the top of ~/.zshrc.
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
